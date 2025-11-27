@@ -19,6 +19,9 @@ from django.urls import path, include
 from rest_framework.routers import DefaultRouter
 from .views import UserViewSet, TeamViewSet, ActivityViewSet, LeaderboardViewSet, WorkoutViewSet, api_root
 
+# API endpoint format: https://$CODESPACE_NAME-8000.app.github.dev/api/[component]/
+# Example: https://$CODESPACE_NAME-8000.app.github.dev/api/activities/
+
 router = DefaultRouter()
 router.register(r'users', UserViewSet)
 router.register(r'teams', TeamViewSet)
