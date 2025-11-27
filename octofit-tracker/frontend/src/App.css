@@ -1,0 +1,188 @@
+/* OctoFit Tracker Custom Styles */
+
+.App {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+/* Navigation Styles */
+.navbar {
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.nav-link {
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.nav-link:hover {
+  transform: translateY(-2px);
+}
+
+/* Content Container */
+.content-wrapper {
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+  padding: 2rem;
+  margin: 2rem auto;
+  max-width: 1400px;
+}
+
+/* Page Headers */
+.page-header {
+  color: #333;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+  padding-bottom: 1rem;
+  border-bottom: 3px solid #667eea;
+}
+
+/* Table Styles */
+.table-container {
+  overflow-x: auto;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.table {
+  margin-bottom: 0;
+}
+
+.table thead {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+}
+
+.table thead th {
+  border: none;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 0.85rem;
+  letter-spacing: 0.5px;
+  padding: 1rem;
+}
+
+.table tbody tr {
+  transition: all 0.3s ease;
+}
+
+.table tbody tr:hover {
+  background-color: #f8f9fa;
+  transform: scale(1.01);
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.table tbody td {
+  vertical-align: middle;
+  padding: 1rem;
+}
+
+/* Card Styles */
+.card {
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  transition: all 0.3s ease;
+  height: 100%;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+.card-header {
+  border-radius: 15px 15px 0 0 !important;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border: none;
+  padding: 1rem 1.5rem;
+}
+
+.card-title {
+  margin: 0;
+  font-weight: 600;
+}
+
+.card-body {
+  padding: 1.5rem;
+}
+
+/* Badge Styles */
+.badge {
+  padding: 0.5rem 1rem;
+  font-weight: 600;
+  border-radius: 20px;
+}
+
+/* Loading and Error States */
+.loading-spinner {
+  text-align: center;
+  padding: 3rem;
+}
+
+.error-message {
+  background: #fff3cd;
+  border: 1px solid #ffc107;
+  border-radius: 10px;
+  padding: 1rem;
+  color: #856404;
+}
+
+/* Welcome Section */
+.welcome-section {
+  text-align: center;
+  padding: 4rem 2rem;
+}
+
+.welcome-section h1 {
+  color: #667eea;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  font-size: 3rem;
+}
+
+.welcome-section p {
+  color: #666;
+  font-size: 1.25rem;
+}
+
+/* Rank Badge */
+.rank-badge {
+  background: linear-gradient(135deg, #ffd700 0%, #ffed4e 100%);
+  color: #333;
+  font-weight: bold;
+  padding: 0.5rem 0.75rem;
+  border-radius: 50%;
+  display: inline-block;
+  min-width: 40px;
+  text-align: center;
+}
+
+/* Points Display */
+.points-display {
+  color: #667eea;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .content-wrapper {
+    margin: 1rem;
+    padding: 1rem;
+  }
+  
+  .welcome-section h1 {
+    font-size: 2rem;
+  }
+  
+  .welcome-section p {
+    font-size: 1rem;
+  }
+}

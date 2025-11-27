@@ -1,6 +1,6 @@
 ---
 mode: 'agent'
-model: GPT-4.1
+model: Claude Sonnet 4.5
 description: 'Create a Django project, start it, and run it'
 ---
 
